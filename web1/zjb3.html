@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>普通元素反应</title>
+  </head>
+  <body>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        background-color: #f4f4f9;
+        padding: 20px;
+      }
+      h1 {
+        font-family: "楷体", "KaiTi", "楷体_GB2312", sans-serif;
+        text-align: center;
+        color: #2c3e50;
+      }
+      h2 {
+        color: #2980b9;
+      }
+      .reaction {
+        margin-bottom: 20px;
+        background-color: #ecf0f1;
+        padding: 15px;
+        border-radius: 8px;
+      }
+      .reaction h3 {
+        margin-top: 0;
+        color: #8e44ad;
+      }
+      .reaction p {
+        margin: 10px 0;
+        color: #34495e;
+      }
+      .reaction .effect {
+        font-weight: bold;
+        color: #e74c3c;
+      }
+      .reaction .damage {
+        font-style: italic;
+        color: #27ae60;
+      }
+    </style>
+  </head>
+  <body>
+  
+    <h1>普通的元素反应</h1>
+  
+    <div class="reaction">
+      <h3>1. 超导 (Superconduct)</h3>
+      <p><span class="effect">触发条件：</span>冰元素（Cryo） + 电元素（Electro）</p>
+      <p><span class="effect">效果：</span>造成冰冻区域，并降低敌人的物理抗性。</p>
+      <p><span class="damage">伤害类型：</span>冰元素伤害。</p>
+      <p><span class="effect">用途：</span>主要用来增加敌人对物理攻击的脆弱性。</p>
+    </div>
+  
+    <div class="reaction">
+      <h3>2. 燃烧 (Burning)</h3>
+      <p><span class="effect">触发条件：</span>草元素（Dendro） + 火元素（Pyro）</p>
+      <p><span class="effect">效果：</span>对敌人造成持续的火焰伤害。</p>
+      <p><span class="damage">伤害类型：</span>火元素伤害。</p>
+      <p><span class="effect">用途：</span>对敌人造成持续性火焰伤害，通常与草元素互动时触发。</p>
+    </div>
+  
+    <div class="reaction">
+      <h3>3. 蒸发 (Vaporize)</h3>
+      <p><span class="effect">触发条件：</span>水元素（Hydro） + 火元素（Pyro）</p>
+      <p><span class="effect">效果：</span>如果火元素先触发，则造成火元素的高倍伤害；如果水元素先触发，则造成更高的火元素伤害。</p>
+      <p><span class="damage">伤害类型：</span>火元素伤害。</p>
+      <p><span class="effect">用途：</span>提供大量伤害，是一个高伤害的反应，特别适合搭配火或水元素角色。</p>
+    </div>
+  
+    <div class="reaction">
+      <h3>4. 融化 (Melt)</h3>
+      <p><span class="effect">触发条件：</span>冰元素（Cryo） + 火元素（Pyro）</p>
+      <p><span class="effect">效果：</span>如果冰元素先触发，造成的火元素伤害会增加；如果火元素先触发，冰元素伤害会大幅增加。</p>
+      <p><span class="damage">伤害类型：</span>根据先触发的元素，造成火或冰伤害。</p>
+      <p><span class="effect">用途：</span>非常强大的反应，提供高额的伤害加成，特别适合与强力的火或冰角色组合使用。</p>
+    </div>
+  
+    <div class="reaction">
+      <h3>5. 感电 (Electro-Charged)</h3>
+      <p><span class="effect">触发条件：</span>水元素（Hydro） + 电元素（Electro）</p>
+      <p><span class="effect">效果：</span>对触碰到水的敌人造成电元素伤害，并在一定时间内持续伤害。</p>
+      <p><span class="damage">伤害类型：</span>电元素伤害。</p>
+      <p><span class="effect">用途：</span>常用于敌人群体控制，特别适合与水元素角色配合，持续造成电伤害。</p>
+    </div>
+  
+    <div class="reaction">
+      <h3>6. 超载 (Overloaded)</h3>
+      <p><span class="effect">触发条件：</span>火元素（Pyro） + 电元素（Electro）</p>
+      <p><span class="effect">效果：</span>产生爆炸，造成火元素范围伤害。</p>
+      <p><span class="damage">伤害类型：</span>火元素伤害。</p>
+      <p><span class="effect">用途：</span>对敌人造成大范围的火伤害，适用于清除敌人群体。</p>
+    </div>
+  
+    <div class="reaction">
+      <h3>7. 结晶 (Crystallize)</h3>
+      <p><span class="effect">触发条件：</span>岩元素（Geo） + 水、冰、电、火或草元素</p>
+      <p><span class="effect">效果：</span>生成一个晶体，可以提供护盾。该晶体的元素种类取决于与岩元素结合的另一种元素。</p>
+      <p><span class="effect">用途：</span>为角色提供护盾，保护角色免受伤害。</p>
+    </div>
+  
+    <div class="reaction">
+      <h3>8. 扩散 (Swirl)</h3>
+      <p><span class="effect">触发条件：</span>风元素（Anemo） + 水、火、冰或电元素</p>
+      <p><span class="effect">效果：</span>风元素扩散触发的反应会附带另一个元素的效果，并造成相应的元素伤害。</p>
+      <p><span class="damage">伤害类型：</span>根据触发的元素类型，造成火、水、电或冰伤害。</p>
+      <p><span class="effect">用途：</span>可作为元素扩散反应，用于增加战斗中的多元素伤害。</p>
+    </div>
+  </body>
+</html>

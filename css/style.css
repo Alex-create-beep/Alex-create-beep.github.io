@@ -1,0 +1,281 @@
+body.custom-cursor {
+  cursor: url("image1/QQ20241113-143804.png") 16 16, auto;
+}
+
+.ima1 {
+  width: 500px;
+  height: 300px;
+  position: relative;
+  top: 50px;
+  left: 300px;
+}
+
+.sen1 {
+  position: relative;
+  top: 0px;
+  left: 700px;
+  font-family: "楷体", "KaiTi", "楷体_GB2312", sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.sen2 {
+  display: inline-block;
+  position: relative;
+  top: 40px;
+  left: 425px;
+  font-family: "楷体", "KaiTi", "楷体_GB2312", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  border: 5px double black;
+  border-radius: 5px;
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.sen2:hover {
+  color: #0008ff;
+}
+
+.sen3 {
+  display: inline-block;
+  position: relative;
+  top: 150px;
+  left: 150px;
+  font-family: "楷体", "KaiTi", "楷体_GB2312", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  border: 5px double black;
+  border-radius: 5px;
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.sen3:hover {
+  color: #ff0000;
+}
+
+.img2 {
+  position: relative;
+  top: -300px;
+  left: 90px;
+}
+
+.img3 {
+  width: 130px;
+  height: 155px;
+  position: relative;
+  top: -300px;
+  left: 130px;
+}
+
+.img4 {
+  width: 180px;
+  height: 170px;
+  position: relative;
+  top: -290px;
+  left: 160px;
+}
+
+.img5 {
+  width: 210px;
+  height: 200px;
+  position: relative;
+  top: -280px;
+  left: 130px;
+}
+
+.img6 {
+  width: 180px;
+  height: 190px;
+  position: relative;
+  top: -280px;
+  left: 110px;
+}
+
+.img7 {
+  width: 180px;
+  height: 190px;
+  position: relative;
+  top: -260px;
+  left: 120px;
+}
+
+.img8 {
+  width: 160px;
+  height: 170px;
+  position: relative;
+  top: -290px;
+  left: 130px;
+}
+
+.img9 {
+  width: 300px;
+  height: 200px;
+  position: relative;
+  top: 0px;
+  left: 1000px;
+}
+
+.sen4 {
+  position: relative;
+  top: -200px;
+  left: 100px;
+  font-family: "楷体", "KaiTi", "楷体_GB2312", sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.sen5 {
+  position: relative;
+  top: -200px;
+  left: 100px;
+  font-family: "楷体", "KaiTi", "楷体_GB2312", sans-serif;
+  font-size: 120px;
+  font-weight: bold;
+}
+
+.sen6 {
+  position: fixed;
+  top: -50px;
+  left: 100px;
+  font-family: "楷体", "KaiTi", "楷体_GB2312", sans-serif;
+  font-size: 100px;
+  font-weight: bold;
+}
+
+.sen7 {
+  display: inline-block;
+  position: fixed;
+  top: 200px;
+  left: 120px;
+  font-family: "楷体", "KaiTi", "楷体_GB2312", sans-serif;
+  font-size: 70px;
+  font-weight: bold;
+  border: 5px double black;
+  border-radius: 5px;
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.sen7:hover {
+  color: #0008ff;
+}
+
+.sen8 {
+  display: inline-block;
+  position: fixed;
+  top: 400px;
+  left: 120px;
+  font-family: "楷体", "KaiTi", "楷体_GB2312", sans-serif;
+  font-size: 70px;
+  font-weight: bold;
+  border: 5px double black;
+  border-radius: 5px;
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.sen8:hover {
+  color: #0008ff;
+}
+
+.sen9 {
+  display: inline-block;
+  position: fixed;
+  top: 600px;
+  left: 120px;
+  font-family: "楷体", "KaiTi", "楷体_GB2312", sans-serif;
+  font-size: 70px;
+  font-weight: bold;
+  border: 5px double black;
+  border-radius: 5px;
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.sen9:hover {
+  color: #0008ff;
+}
+
+.sen10 {
+  display: inline-block;
+  position: fixed;
+  top: 700px;
+  left: 120px;
+  font-family: "楷体", "KaiTi", "楷体_GB2312", sans-serif;
+  font-size: 70px;
+  font-weight: bold;
+  border: 5px double black;
+  border-radius: 5px;
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.sen10:hover {
+  color: #0008ff;
+}
+
+.sen11 {
+  display: inline-block;
+  position: fixed;
+  top: 700px;
+  left: 800px;
+  font-family: "楷体", "KaiTi", "楷体_GB2312", sans-serif;
+  font-size: 70px;
+  font-weight: bold;
+  border: 5px double black;
+  border-radius: 5px;
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.sen11:hover {
+  color: #0008ff;
+}
+
+.img10 {
+  width: 450px;
+  position: fixed;
+  top: 50px;
+  left: 1000px;
+}
+
+.box1 {
+  position: fixed;
+  top: 30px;
+  left: 50x;
+}
+
+body {
+  background-image: url("../image1/7.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.sen12 {
+  display: inline-block;
+  position: fixed;
+  top: 750px;
+  left: 1300px;
+  font-family: "楷体", "KaiTi", "楷体_GB2312", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  border: 5px double black;
+  border-radius: 5px;
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.sen12:hover {
+  color: #0008ff;
+}
